@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+</head>
+<link rel="stylesheet" href="Weather.css">
+<body>
+    <section class="weatherapp">
+        <div class="location">
+            <h3 id="city" style="font-size: 50px; color: #203159;"  >City Name</h3>
+            <h5 id="country" style="font-size: 30px; color: #203159;" >Country Name</h5>
+        </div>
+
+        <div class="information">
+            <div class="temp_infro">
+                <h2 style="color: #203159;"><span id="temp" style="color: #203159;">0</span><sup>o</sup> C</h2>
+            </div>
+            <div class="imege">
+                <img src="ph.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="search">
+            <input id="user_ip" type="text" placeholder="Enter city name">
+            <button onclick="checkTemp()">Search</button>
+
+        </div>
+
+    </section>
+
+  <script src="Weather.js"></script>  
+</body>
+</html>
